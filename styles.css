@@ -1,0 +1,111 @@
+body {
+    background-color: #FCDDA4;
+    font-family: "roboto", sans-serif;
+    color: #080000;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+   
+  input {
+    border-radius: 30px;
+    padding: 8px 10px;
+    margin: 8px 0 20px;
+    border: 3px solid #080000;
+    outline: none;
+    letter-spacing: 2px;
+  }
+  
+  input.bg {
+    width: 100%;
+    background-color: #FCDDA4;
+    transition: 1s ease-in-out;
+  }
+  
+  input.bg:focus{
+    border: 3px solid #AA8CE2;
+    background-color: #fff;
+  }
+  
+  input.pass {
+    margin-bottom: 0;
+  }
+  
+  .eye {
+    width: 40px;
+    height: 29px;
+    color: #000;
+    background-color: #AA8CE2;
+    position: relative;
+    top: -33px;
+    left: 235px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .eye:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #F8B639;
+  }
+  
+  small {
+    position: relative;
+    top: -30px;
+    display: none;
+    font-size: 14px;
+    transition: 3s ease-in;
+  }
+  
+  div.htxt:hover small {
+    display: block;
+  }
+  
+  .send {
+    width: 50%;
+    background-color: #F8B639;
+    padding: 18px 0;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1s ease-in;
+  }
+  
+  .send:hover{
+    width: 110%;
+    background-color: #AA8CE2;
+    cursor: pointer;
+  }
+  
+  form {
+    width: 100%;
+  }
+    
+  div.container {
+    display: block;
+    width: 254px;
+    padding-top: 20px;
+  }
+
+  div.contenedor {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 60px auto 30px;
+  }
+
+  div.container1 {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    justify-items: flex-end;
+  }
+
+  .bg-img {
+   display: flex;
+   justify-content: flex-end;
+   padding: 50px;
+  }
